@@ -1,0 +1,5 @@
+# Create an empty .nojekyll file to tell GitHub Pages to serve static files directly
+with open('.nojekyll', 'w') as f:
+    pass
+
+print('Created .nojekyll')
